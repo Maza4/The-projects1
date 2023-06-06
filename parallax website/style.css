@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.firstsection{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/dice.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.firstsection span{
+    color: rgb(243, 239, 239);
+    background-color: rgb(14, 13, 13);
+    padding: 25px;
+    letter-spacing: 8px;
+    font-weight: 400;
+    font-size: 27px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.section2{
+    background-color: rgb(253, 250, 250);
+    padding: 50px;
+    color: rgb(107, 99, 99);
+    text-align: center;
+    font-size: larger;
+}
+
+.section2 h2{
+    color: rgb(102, 102, 102);
+    margin: 20px;
+}
+
+.section3{
+    width: 100%;
+    height: 500px;
+    background-image: url(images/ferarri.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+}
+
+.section3 span{
+   line-height: 500px;
+    text-align: center;
+    font-size: 32px;
+}
+.section4{
+    width: 100%;
+    height: 500px;
+    background-image: url(images/white\ robot.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+}
+.section4 span{
+    line-height: 500px;
+    text-align: center;
+     font-size: 32px
+}
+
+.firstsection2{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/dice.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.firstsection2 span{
+    color: white;
+    background-color: rgb(34, 34, 34);
+    padding: 25px;
+    letter-spacing: 8px;
+    font-weight: 400;
+    font-size: 27px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
