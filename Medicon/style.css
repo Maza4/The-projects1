@@ -1,0 +1,353 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+  color: black;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 2.5%;
+  margin-left: 5%;
+  margin-right: 7%;
+}
+
+.nav-bar h2 {
+  font-size: 40px;
+  font-weight: 800;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.nav-bar span {
+  color: #418cfd;
+}
+
+.nav-bar ul {
+  display: inline-flex;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.nav-bar li {
+  list-style-type: none;
+  padding: 0px 40px;
+}
+
+#home {
+  color: #418cfd;
+}
+
+/* ======first-body */
+
+.first-body {
+  margin: 5% 5% 0 12%;
+  position: relative;
+}
+
+.first-body h1 {
+  display: inline;
+  font-size: 60px;
+  font-weight: 800;
+  letter-spacing: 5px;
+  line-height: 80px;
+}
+
+.first-body span {
+  color: #418cfd;
+}
+
+.first-body p {
+  font-size: 30px;
+  color: rgb(85, 84, 84);
+  font-weight: 530;
+  margin-top: 15px;
+}
+
+.first-body button {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #418cfd;
+  padding: 20px;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 19px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.first-body img {
+  height: 35rem;
+  object-fit: cover;
+  position: absolute;
+  left: 40%;
+  top: 7%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 15% 10% 5% 10%;
+  background-color: rgb(231, 226, 226);
+  padding: 5%;
+}
+
+.footer img {
+  width: 13%;
+  display: flex;
+}
+
+/* ========= How it works */
+
+div.howitworks {
+  margin-top: 10%;
+  margin-left: 5%;
+  position: relative;
+  margin-bottom: 14%;
+}
+
+.howitworks h2 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.howitworks span {
+  color: #418cfd;
+}
+
+.howitworks img {
+  margin-top: 8%;
+}
+
+.reading {
+  position: relative;
+  top: 10%;
+  left: 5%;
+  margin-bottom: 20px;
+}
+
+.list {
+  position: absolute;
+  bottom: 30%;
+}
+
+.guides {
+  position: absolute;
+  float: right;
+  top: 20%;
+  right: 10%;
+}
+
+.guides p {
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 70px;
+}
+
+/* ======== Our Specialists ======= */
+
+.specialist {
+  margin-left: 15%;
+  margin-right: 7%;
+  position: relative;
+}
+
+.head h1 {
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.head h1 > span {
+  color: #418cfd;
+}
+
+.head p {
+  text-align: center;
+  font-size: 30px;
+}
+
+.link {
+  color: #418cfd;
+}
+
+.first-special {
+  display: flex;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.general {
+  width: 25%;
+  border: 1px solid rgb(211, 208, 208);
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.material-icons-outlined {
+  color: #418cfd;
+}
+
+.general h2 {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.general p {
+  font-size: 25px;
+  word-spacing: 1px;
+  line-height: 30px;
+}
+
+.cardiology {
+  width: 25%;
+  border: 1px solid rgb(211, 208, 208);
+  border-radius: 20px;
+  padding: 15px;
+  background-color: #418cfd;
+  color: white;
+}
+
+.cardiology h2 {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.cardiology p {
+  font-size: 25px;
+  word-spacing: 1px;
+  line-height: 30px;
+}
+
+#exempted {
+  color: white;
+}
+
+.dentistry {
+  width: 25%;
+  border: 1px solid rgb(211, 208, 208);
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.dentistry h2 {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.dentistry p {
+  font-size: 25px;
+  word-spacing: 1px;
+  line-height: 30px;
+}
+
+.pharmacy {
+  width: 25%;
+  border: 1px solid rgb(211, 208, 208);
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.pharmacy h2 {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.pharmacy p {
+  font-size: 25px;
+  word-spacing: 1px;
+  line-height: 30px;
+}
+
+#image img {
+  position: absolute;
+  right: 10px;
+  top: 150px;
+  height: 30%;
+  object-fit: cover;
+}
+
+/* =====The Specialist Doctors=== */
+
+.special-doctors {
+  margin-top: 14%;
+}
+
+.head2 h1 {
+  text-align: left;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.head2 span {
+  color: #418cfd;
+}
+.head2 p {
+  font-size: 30px;
+  display: inline;
+}
+
+.head2 button {
+  float: right;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #418cfd;
+  padding: 18px;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 23px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.more-doctors {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  display: flex;
+}
+
+.more-doctors,
+img {
+  justify-content: space-between;
+  font-family: "Roboto Condensed", sans-serif;
+  word-spacing: 1px;
+}
+
+.more-doctors,
+img > h2 {
+  font-size: 25px;
+  color: rgb(46, 45, 45);
+  text-align: center;
+}
+
+.more-doctors,
+p {
+  font-size: 20px;
+  color: black;
+}
+
+/* =========Customer Review =======*/
+
+.review {
+  text-align: center;
+}
+
+.head3,
+h1 {
+  font-size: 60px;
+}
+
+.head3 span {
+  color: #418cfd;
+}
+
+.head3,
+p {
+  font-size: 25px;
+}
