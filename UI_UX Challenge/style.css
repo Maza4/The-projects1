@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  background-color: #8dbedf;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  top: 20px;
+  left: 20%;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #0663a1;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.nav li {
+  margin: 20px 10px;
+}
+
+.nav > a.active {
+  background-color: #066fb7;
+  color: white;
+  border-radius: 5px;
+}
+
+div.sign-up-plate {
+  width: 50%;
+  height: 70%;
+  background-color: white;
+  border-radius: 10px;
+  margin: 10% auto;
+  padding: 0 0 30px 0;
+  box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2),
+    4px 6px 20px 4px rgba(0, 0, 0, 0.19);
+}
+
+div.head {
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  color: #066fb7;
+  padding: 30px;
+}
+
+div.input {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.first {
+  display: inline-block;
+  width: 35%;
+  padding: 10px;
+  margin: 20px 55px;
+  border-radius: 10px;
+  border: 2.5px solid #066fb7;
+  font-size: 25px;
+}
+
+.other {
+  display: inline-block;
+  width: 35%;
+  padding: 10px;
+  margin: 20px 15px;
+  border-radius: 10px;
+  border: 2.5px solid #066fb7;
+  font-size: 25px;
+}
+
+.email {
+  width: 84%;
+  display: block;
+  padding: 10px;
+  margin: 20px 55px;
+  border-radius: 10px;
+  border: 2.5px solid #066fb7;
+  font-size: 25px;
+}
+
+.password {
+  width: 84%;
+  display: inline-block;
+  padding: 10px;
+  margin: 20px 55px;
+  border-radius: 10px;
+  border: 2.5px solid #066fb7;
+  font-size: 25px;
+}
+
+button.enter {
+  width: 25%;
+  margin-top: 40px;
+  margin-left: 40%;
+  margin-bottom: 40px;
+  text-align: center;
+  color: white;
+  padding: 15px 2px;
+  font-size: 15px;
+  border: none;
+  border-radius: 30px;
+  background-color: #066fb7;
+  cursor: pointer;
+}
